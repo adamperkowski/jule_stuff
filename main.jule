@@ -1,0 +1,7 @@
+cpp use "exec.hpp"
+
+cpp fn exec(str): bool
+
+fn main() {
+	println(cpp.exec("touch test.txt"))
+}
